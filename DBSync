@@ -2,11 +2,11 @@
 ## JSON
 Example:
 {
-"Hash": String,
-"Prev_Hash": String,
-"Transaction_Id": String,
-"TimeStamp": Date,
-"Transaction_Description":String,
-"Transaction_Debit": Float,
-"Transaction_Credit": Float
+  "Hash": String,
+  "Prev_Hash": String,
+  "Transaction_Id": String,
+  "TimeStamp": Date,
+  "Transaction_Description":String,
+  "Transaction_Debit": Float,
+  "Transaction_Credit": Float
 }
