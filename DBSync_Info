@@ -11,6 +11,12 @@ Example:
   "Transaction_Debit": Float,
   "Transaction_Credit": Float,
   "Currency": String,
-  "Authorization_Level": Int
+  "Authorization_Level": Int,
+  "Time_Of_Life": Int,
 }
 
+# Authorization_Level:
+Our Blocks can only be read by people who have the corresponding Authorization Level in the organization. That way in the CIA high level transactions are kept private and only high level trusted auditors can verify those transactions later on.
+
+# Time_Of_Life:
+Our blocks have a self descructing timer that makes the block unreadable but still existent in the chain. That way the chain is consistent but the data is hidden.
