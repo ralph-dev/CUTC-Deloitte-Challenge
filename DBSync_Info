@@ -9,6 +9,7 @@ Example:
   "TimeStamp": Date,
   "Transaction_Description":String,
   "Transaction_Debit": Float,
-  "Transaction_Credit": Float
+  "Transaction_Credit": Float,
+  "Currency": String
 }
 
