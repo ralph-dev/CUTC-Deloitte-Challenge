@@ -1,5 +1,6 @@
 # Data Medium
-## JSON
+## Each Block
+### JSON
 Example:
 {
   "Hash": String,
@@ -10,3 +11,4 @@ Example:
   "Transaction_Debit": Float,
   "Transaction_Credit": Float
 }
+
