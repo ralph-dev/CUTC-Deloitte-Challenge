@@ -79,10 +79,10 @@ var replaceChain = (newBlocks) => {
 ### Controlling the node
 The user must be able to control the node in some way. This is done by setting up a HTTP server.
 
+
 var initHttpServer = () => {
     var app = express();
     app.use(bodyParser.json());
-
     app.get('/blocks', (req, res) => res.send(JSON.stringify(blockchain)));
     app.post('/mineBlock', (req, res) => {
         var newBlock = generateNextBlock(req.body.data);
