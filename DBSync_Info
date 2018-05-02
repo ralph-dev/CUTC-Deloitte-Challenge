@@ -10,6 +10,7 @@ Example:
   "Transaction_Description":String,
   "Transaction_Debit": Float,
   "Transaction_Credit": Float,
-  "Currency": String
+  "Currency": String,
+  "Authorization_Level": Int
 }
 
